@@ -1,5 +1,5 @@
 // continously run with:
-// nodemon nodeunit tests/websocket-test.js
+// nodemon -x nodeunit --reporter "minimal" tests/test-npm-get.js
 
 require('shelljs/global');
 var shelljs = require('shelljs');
@@ -30,6 +30,7 @@ testSuite.NpmInstallPackageTest = {
         test.done();
       });
   }
+
 }
 
 exports.testSuite = testSuite;
