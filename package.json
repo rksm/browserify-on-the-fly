@@ -1,0 +1,21 @@
+{
+  "name": "browserify-on-the-fly",
+  "version": "0.1.0",
+  "description": "interface to load packages from npm, browserify them and serve them via http/websocket",
+  "main": "interface to load packages from npm, browserify them and serve them via http/websocket",
+  "scripts": {
+    "test": "node_modules/nodeunit/bin/nodeunit --reporter minimal tests/test-*.js"
+  },
+  "keywords": [
+    "browserify",
+    "virtual",
+    "npm"
+  ],
+  "author": "Robert Krahn",
+  "license": "MIT",
+  "dependencies": {
+    "nodeunit": "~0.8.2",
+    "async": "~0.2.9",
+    "shelljs": "~0.2.6"
+  }
+}
