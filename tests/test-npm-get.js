@@ -5,7 +5,7 @@ require('shelljs/global');
 var shelljs = require('shelljs');
 
 var testSuite = {},
-    npmLoader = require('../npm-loader'),
+    npmLoader = require('../lib/npm-loader'),
     path = require('path'),
     fs = require('fs');
 
