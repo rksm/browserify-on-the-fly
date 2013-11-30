@@ -16,6 +16,10 @@
   "dependencies": {
     "nodeunit": "~0.8.2",
     "async": "~0.2.9",
-    "shelljs": "~0.2.6"
+    "shelljs": "~0.2.6",
+    "browserify": "~2.36.0"
+  },
+  "devDependencies": {
+    "lively-pluggable-server": "https://github.com/rksm/lively-pluggable-server/tarball/master"
   }
 }
